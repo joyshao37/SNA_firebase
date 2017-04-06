@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" content="news report" name="hw1">
+	<title>朴槿惠致歉 搬離青瓦台</title>
+	<link href="index.css" rel="stylesheet" type="text/css">
+	<script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js">
+	</script>
+	<script>
+	         // Initialize Firebase
+	         var config = {
+	           apiKey: "AIzaSyDqWEwjXhna1PyCodsuAR-_sfE3J8u3M3w",
+	           authDomain: "nccunews-hw3.firebaseapp.com",
+	           databaseURL: "https://nccunews-hw3.firebaseio.com",
+	           projectId: "nccunews-hw3",
+	           storageBucket: "nccunews-hw3.appspot.com",
+	           messagingSenderId: "540375028489"
+	         };
+	         firebase.initializeApp(config);
+	</script>
+	<script src="script.js" type="text/javascript">
+	</script>
+</head>
+<body>
+	<div id="container">
+		<button id="btn" onclick="goUp()"></button>
+		<div id="content">
+			<div id="header">
+				<div id="increase_decrease">
+					<a href="javascript:decreaseFontSize();"><img src="images/minus.png"></a> <a href="javascript:increaseFontSize();"><img src="images/add.png"></a>
+				</div>
+				<h1>朴槿惠致歉 搬離青瓦台</h1>
+				<h5>2017-03-13 01:52:39 聯合報 編譯王麗娟／綜合報導</h5><img alt="朴槿惠" id="photo.php">
+				<h3>數輛警騎護送下抵三成洞私宅</h3>
+				<p onmouseout="mouseOut()" onmouseover="mouseOver()">遭到罷免的南韓前總統朴槿惠十二日晚搬離總統府青瓦台，她在數輛警騎摩托車護送下，抵達首都首爾三成洞私宅，其後並就自己遭到彈劾下台，首度公開發表道歉聲明。不過，朴槿惠僅就自己未能做完任期，向國人致歉，仍是<em>否認自己涉及不法</em>。</p>
+				<h3>暗示無法接受憲法法院判決</h3>
+				<p onmouseout="mouseOut()" onmouseover="mouseOver()">朴槿惠是在進入私宅後，才透過執政的「自由韓國黨」議員閔庚旭代讀聲明：<i>「沒能盡到國人賦予我的總統職責，我感到非常抱歉，謝謝相信並支持我的各位國人，我願意承擔一切結果。雖然還需時間驗證，但相信真相終會大白。」</i>韓聯社報導，雖然朴槿惠未直接提及彈劾判決與檢方調查，有觀點指出，朴槿惠強調真相終會大白，暗示她無法接受憲法法院的判決。</p>
+				<h3>電視台沿途跟拍全程轉播</h3>
+				<p onmouseout="mouseOut()" onmouseover="mouseOver()">憲法法院十日就閨密干政醜聞裁決國會彈劾朴槿惠成立，朴槿惠於台北時間十二日晚六時左右搬離青瓦台，約莫廿分鐘後，載送她的車隊抵達私宅。電視台沿途跟著車隊，全程轉播她返抵自宅過程。青瓦台前核心幕僚與執政黨親朴派國會議員都在三成洞迎接朴槿惠，警方估計，約八百名支持者聚集在她的私宅前，高舉南韓國旗與彈劾無效布條，且仍高喊「朴槿惠總統」等支持她的口號。警方動員約兩千名警力在現場維持秩序，防止有人滋事。</p><img alt="朴槿惠" id="photo.php-2">
+				<h3>檢方考慮對她採取限制住居</h3>
+				<p onmouseout="mouseOut()" onmouseover="mouseOver()"><strong>朴槿惠失去總統身分，同時喪失刑事起訴的豁免權。</strong>她目前被控多項刑事罪名，包括與密友崔順實共同涉嫌收賄、收受三星少主李在鎔巨額賄款等，可能很快就會遭檢方約談調查。若她拒絕接受傳喚，可能遭逮捕。媒體報導，檢方正考慮對她採取限制住居、不得出境等禁令。</p>
+			</div>
+			<div id="footer">
+				<p>延伸閱讀</p>
+				<ul>
+					<li>
+						<a href="https://money.udn.com/money/story/10914/2338119" target="_blank">韓財團死神 追打弊案不手軟</a>
+					</li>
+					<li>
+						<a href="https://money.udn.com/money/story/10914/2336764" target="_blank">美持中立 薩德部署 不受影響</a>
+					</li>
+					<li>
+						<a href="https://money.udn.com/money/story/10914/2338293" target="_blank">文在寅若登頂 朴舊制恐翻</a>
+					</li>
+					<li>
+						<a href="https://money.udn.com/money/story/10914/2335320" target="_blank">歷史經驗 韓股後市不看淡</a>
+					</li>
+					<li>
+						<a href="https://money.udn.com/money/story/10914/2336761" target="_blank">倒朴成功 加劇南韓分裂</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="left_column">
+			<img alt="捷星廣告" id="ad_jetstar">
+			<table>
+				<tr>
+					<th scope="col">參考資料</th>
+				</tr>
+				<tr>
+					<td>
+						<a href="https://udn.com/news/story/10913/2338315" target="_blank">聯合新聞網</a>
+					</td>
+				</tr>
+				<tr class="even">
+					<td>
+						<a href="https://www.w3schools.com/html/" target="_blank">W3Schools</a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="https://www.jetstar.com/hk/zh/home" target="_blank">Jetstar</a>
+					</td>
+				</tr>
+				<tr class="even">
+					<td>
+						<a href="http://html-color-codes.info" target="_blank">HTML Color Codes</a>
+					</td>
+				</tr>
+			</table>
+			<div id="comment">
+				<h4>留言給我</h4>
+				<form>
+					<select id="mySelect" onchange="myselect()">
+						<option value="anonymous">
+							匿名
+						</option>
+						<option value="google">
+							Google Account
+						</option>
+					</select> <!-- required attribute doesn't work in Safari -->
+					 <input id="name" placeholder="暱稱/帳號" type="text"><br>
+					<textarea id="message" placeholder="Enter your comments..." rows="8"></textarea><br>
+					<input id="subbtn" onclick="comment_btn()" type="button" value="Submit">
+				</form>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+
+
+	   function myselect(){
+
+	           var opt = document.getElementById("mySelect").value;
+	           
+	           if (opt == "anonymous"){
+
+	           document.getElementById("name").disabled = false;
+
+	           }else{
+
+
+	   
+
+
+	           var provider = new firebase.auth.GoogleAuthProvider();
+	           firebase.auth().signInWithPopup(provider).then(function(result) {
+	           // This gives you a Google Access Token. You can use it to access the Google API.
+	           var token = result.credential.accessToken;
+	           // The signed-in user info.
+	           var user = result.user;
+
+
+	           document.getElementById("name").value = user.displayName;
+	           document.getElementById("name").disabled = true;
+	           // ...
+	           }).catch(function(error) {
+	           // Handle Errors here.
+	           var errorCode = error.code;
+	           var errorMessage = error.message;
+	           // The email of the user's account used.
+	           var email = error.email;
+	           // The firebase.auth.AuthCredential type that was used.
+	           var credential = error.credential;
+	           // ...
+	           });
+
+
+	           }
+
+	   }
+
+
+	   var uploadRef = firebase.storage().ref();
+
+
+	   function comment_btn(){
+
+
+	       var username = document.getElementById("name").value;
+	       var message = document.getElementById("message").value;
+
+	       var NowDate = new Date();
+	       
+
+	       var filename = username+"-"+NowDate+".txt";
+
+
+	       if (username == "" || message == ""){
+
+	           alert("有空白！");
+
+
+
+	       }else{
+
+
+
+	       var messageRef = uploadRef.child("secret-message").child(filename);
+	       messageRef.putString(message).then(function(snapshot){
+
+
+	           console.log("Upload Successfully");
+	           alert("留言成功");
+	           document.getElementById("name").value = "";
+	           document.getElementById("message").value = "";
+
+
+	       });
+
+
+	       }
+
+	   }
+
+	</script>
+</body>
+</html>
